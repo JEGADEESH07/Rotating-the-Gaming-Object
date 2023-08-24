@@ -37,7 +37,33 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```python
+Developed by: JEGADEESH SATHAIYA
+Registered Number : 212222230055
+```
 
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class exp1 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 60 * Time.deltaTime);
+        
+    }
+}
+```
 ## Output:
+![image](https://github.com/JEGADEESH07/Rotating-the-Gaming-Object/assets/113497131/0092d5c3-a896-423c-ad14-495b92b3c83b)
 
 ## Result:
